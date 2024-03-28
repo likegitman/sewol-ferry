@@ -8,7 +8,7 @@ const MainVideo = () => {
       style={{ height: 'calc(100vh - 5rem)' }}
     >
       <div className='w-full max-w-6xl aspect-video'>
-        <Video id='ALvTNrE_LbU' />
+        <Video id='j5sxdl5_hPc' />
       </div>
     </section>
   )

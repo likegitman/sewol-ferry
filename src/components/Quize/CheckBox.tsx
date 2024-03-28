@@ -7,14 +7,13 @@ const CheckBox = ({ checked }: Props) => {
     <>
       <input
         type='checkbox'
-        className='w-4 h-4 rounded-md cursor-pointer bg-gray-600 appearance-none checked:bg-yellow-400'
+        className='w-4 h-4 mt-[2px] rounded-md cursor-pointer bg-gray-600 appearance-none checked:bg-yellow-400'
         checked={checked}
       />
       {checked && (
-        <img src='/svg/check.svg' className='absolute ml-1 mt-[5px]' />
+        <img src='/svg/check.svg' className='absolute ml-1 mt-[7px]' />
       )}
     </>
   )
 }
-
 export default CheckBox

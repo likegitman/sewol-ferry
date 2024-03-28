@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className='w-full h-20 fixed top-0 left-0 grid items-center px-16 grid-cols-5 bg-black opacity-80'>
-      <img src='/svg/logo.svg' />
+      <img src='/svg/logo.svg' className="w-[200px]" />
 
       <nav className='text-white opacity-70 flex justify-between col-span-3'>
         <a href='#'>홈</a>
