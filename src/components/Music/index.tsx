@@ -5,7 +5,7 @@ const MusicContent = () => {
     <>
       <div id='song' className='px-16 flex justify-center pt-20 mb-8'>
         <h1 className='text-white text-4xl font-bold max-w-6xl w-full'>
-          별이된 그들 잊지 않기 위해
+          별이된 그들을 잊지 않기 위해
           <br />
           우리 노래를 부른다.
         </h1>
