@@ -7,7 +7,7 @@ const CheckBox = ({ checked }: Props) => {
     <>
       <input
         type='checkbox'
-        className='w-4 h-4 mt-[2px] rounded-md cursor-pointer bg-gray-600 appearance-none checked:bg-yellow-400'
+        className='w-4 h-4 mt-[2px] rounded-md cursor-pointer bg-[#5A5A5A] appearance-none checked:bg-[#FDCF00]'
         checked={checked}
       />
       {checked && (
