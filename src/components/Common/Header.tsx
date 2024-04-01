@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className='w-full h-20 fixed top-0 left-0 grid items-center px-16 grid-cols-5 bg-black opacity-80'>
-      <a href="https://official.hellogsm.kr/" target="_blank" rel="noreferrer">
+      <a href="http://gsm.gen.hs.kr/main/main.php" target="_blank" rel="noreferrer">
         <img src='/svg/logo.svg' className="w-[200px]" />
       </a>
 
