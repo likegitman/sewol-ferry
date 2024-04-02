@@ -1,0 +1,21 @@
+.flow {
+  width: 1200px;
+  height: 40px;
+  background: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.flow div {
+  animation: TextFlow 18s linear infinite;
+}
+
+@keyframes TextFlow {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-1150px);
+  }
+}
