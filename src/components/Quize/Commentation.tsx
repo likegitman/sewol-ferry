@@ -7,7 +7,7 @@ const Commentation = ({ text, isNext }: Props) => {
   if (!isNext) return null
 
   return (
-    <p className='text-sm font-normal text-white text-center max-w-[38rem]'>
+    <p className='text-md font-normal text-white text-center max-w-[38rem]'>
       {text}
     </p>
   )
