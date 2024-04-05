@@ -9,10 +9,10 @@ const MainVideo = () => {
       style={{ height: 'calc(100vh - 5rem)' }}
     >
       <div className='flow'>
-        <div className='flex items-center gap-6'>
+        <div className='flex items-center gap-8'>
           <img src='/svg/sewol-ribbon.svg' />
-          <p className='text-[#F2CD3A] text-2xl font-semibold'>
-            세월호 10주기입니다, 그날의 아픔과 상처를 잊지않고 기억하겠습니다.
+          <p className='text-white text-[30px] font-semibold'>
+             세월호 참사 후 10년, 당신들을 기억하는 마음은 변함 없습니다
           </p>
           <img src='/svg/sewol-ribbon.svg' />
         </div>

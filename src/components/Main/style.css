@@ -7,7 +7,7 @@
 }
 
 .flow div {
-  animation: TextFlow 18s linear infinite;
+  animation: TextFlow 15s linear infinite;
 }
 
 @keyframes TextFlow {
