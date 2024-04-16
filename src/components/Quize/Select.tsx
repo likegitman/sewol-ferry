@@ -44,7 +44,7 @@ const Select = ({
   }
 
   return (
-    <div className='min-w-[38rem] flex-1 mx-auto flex flex-col'>
+    <div className='min-w-[40rem] flex-1 mx-auto flex flex-col'>
       <QuizeTitle
         title={title}
         question={question}

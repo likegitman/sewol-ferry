@@ -29,14 +29,14 @@ const OX = ({ title, question, answer, commentation }: Props) => {
   }
 
   const onChange = (ox: 'O' | 'X' | null) => {
-    if(!isNext) {
+    if (!isNext) {
       setFocus(ox)
       setIsNext(false)
     }
   }
 
   return (
-    <div className='min-w-[38rem] flex-1 mx-auto flex flex-col mb-20'>
+    <div className='min-w-[40rem] flex-1 mx-auto flex flex-col mb-20'>
       <QuizeTitle
         isNext={isNext}
         isAnswer={focus === answer}
